@@ -1,0 +1,104 @@
+.special-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 28px;
+    grid-auto-rows: auto;
+    flex-direction: column;
+    
+
+    
+
+    .special-imagen-background {
+      position: relative;
+      text-align: center;
+      line-height: 100px;
+      float: left;
+      height: 0 auto;
+      transition: box-shadow .2s ease-out;
+      
+        
+      
+    .special-text-wrapper {
+      font-size: 20px;
+      padding: 20px 0;
+      margin-bottom: 100px;
+    }
+
+      .special-text-wrapper:hover {
+        box-shadow: 5px 0px 5 1px rgba(255, 255, 255, 0.273) !important;
+        transition: all 0.7s linear;
+        color: #F5F5F5;
+        opacity: 500;
+        cursor: pointer;
+
+      }
+      .row-new-price:hover {
+        color: #F5F5F5;
+        cursor: pointer;
+
+      }
+    }
+  }
+
+  .card-text {
+    display: grid;
+    box-shadow: 0 0 20px rgba(0,0,0,.13)!important;
+  }
+
+  .title-wrapper p {
+    font-size: 20px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: #ed0707;
+    color: #F5F5F5;
+  }
+
+  .title-wrapper h1 {
+    text-align: center;
+  }
+
+  .driver-text {
+    text-overflow: ellipsis;
+    font-size: 20px;
+    line-height: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .offer-card-pricebox {
+    display: grid;
+    position: relative;
+    padding: 16px 0 8px 20px;
+    border-top: 1px solid var(--color-neutral-300);
+  }
+
+  .card-text {
+    font-size: 20px;
+  }
+
+  .offer-card-content {
+    position: relative;
+    flex-grow: 1;
+    padding: 16px 20px 12px;
+  
+  }
+
+  .btn-wrapper {
+    height: 36px;
+    padding: 0 16px;
+    border-radius: 4px!important;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+
+
+
+  
+
+  
+
+  
+
+
+  
+  
