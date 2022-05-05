@@ -1,0 +1,47 @@
+.auth-page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .left-column {
+        background-size: cover;
+        
+    }
+
+    .right-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F5F5F5;
+
+        .auth-form-wrapper {
+            input {
+            font-family: "Titillium Web", sans-serif;
+            color: #ed0707;
+            padding: 5px 0px;
+            width: 100%;
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+            border-bottom: 1px solid #ed0707;
+            background-color: transparent;
+            transition: 0.5s all ease-in-out;
+            font-size: 1.1em;
+            margin-bottom: 21px;
+            display: grid;
+            grid-gap: 21px;
+
+            .form-group {
+                display: flex;
+
+                svg {
+                    font-size: 2em;
+                    color: #ed0707;
+                    margin-right: 15px;
+                }
+
+             }
+            }
+        }
+    }
+}
