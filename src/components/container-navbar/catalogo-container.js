@@ -26,7 +26,7 @@ export default class CatalogoContainer extends Component {
 
     getnavmain() {
         axios
-          .get('http://127.0.0.1:5000/catalogo')
+          .get('https://capstone-eduardo-project.herokuapp.com/catalogo')
           .then(response => {
                 this.setState({
                     data: response.data.catalogo

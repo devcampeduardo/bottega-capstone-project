@@ -44,7 +44,7 @@ export default class Login extends Component {
   handleSubmit(event) {
     axios
       .post(
-        "http://localhost:3000/lugar",
+        "https://capstone-eduardo-project.herokuapp.com/lugar",
         {
           email: this.state.email,
           password: this.state.password
