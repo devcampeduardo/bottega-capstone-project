@@ -16,7 +16,7 @@ const NavigationComponent = props => {
   };
 
   const handleSignOut = () => {
-    axios.delete("http://localhost:3000/logout", { withCredentials: true })
+    axios.delete("https://capstone-eduardo-project.herokuapp.com/logout", { withCredentials: true })
     .then(reponse => {
       if (reponse.status === 200) {
         props.history.push("/");
