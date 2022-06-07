@@ -24,7 +24,7 @@ import Auth from "./pages/auth";
 import NoMatch from "./pages/no-match";
 import '../style/nav.scss';
 import pagoexitoso from './pages/pagoexitoso';
-import Destino1 from "./pages/destino1";
+import Tellus from "./pages/tellus";
 
 library.add(faSignOutAlt, faPhone, faEnvelope,
   faMapMarkedAlt, faLock, faCreditCard, faUser, faInfo, faCity, faDollarSign);
@@ -102,7 +102,7 @@ export default class App extends Component {
             <Route path="/promocion" component={Promocion} />
             <Route path="/formadepago" component={Formadepago} />
             <Route path="/pagoexitoso" component={pagoexitoso} />
-            <Route path="/destino1" component={Destino1} />
+            <Route path="/tellus" component={Tellus} />
             
           
             

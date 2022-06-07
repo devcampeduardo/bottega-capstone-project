@@ -54,6 +54,12 @@ const NavigationComponent = props => {
          Promocion
        </NavLink>
        </div>
+        
+       <div className="nav-link-wrapper">
+       <NavLink to="/tellus" activeClassName='nav-link-active'>
+         Tu experiencia
+       </NavLink>
+       </div>
 
        
 
